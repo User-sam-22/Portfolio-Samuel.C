@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="list">
+          <li><a href="#bienvenue">Accueil</a></li>
+          <li><a href="#présentation">Présentation</a></li>
+          <li><a href="#projets">Réalisations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="bienvenue">
+        <h1>Bienvenue</h1>
+        <div class="couverture"></div>
+      </div>
+      <section id="présentation"><div class="trait1"></div></section>
+      <div class="question">
+        <h2>Qui suis-je?</h2>
+        <div class="réponse">
+          <p class="text">
+            Je m'appelle <strong>Samuel</strong> et j'ai 22 ans. Je suis
+            actuellement en formation pour devenir
+            <strong>développeur web</strong>. Après cette formation j'aimerais
+            repartir à l'Université pour faire des études en informatique, pour
+            acquérir plus de conaissances dans le domaine.
+          </p>
+          <img src="image\Samuel CLOTAGATIDE-CV (2).png" alt="Cv" />
+        
+          <!-- <div class="rect"> </div> -->
+        </div>
+      </div>
+      <section class="compétences">
+        <p class="text2">
+          J’ai quelques comprétences acquises pendant cette formation avec
+          <a href="https://www.ifr-reunion.re/">l'IFR </a>, la formation
+          précédente avec le même organisme, et en autodidacte. Tout d'abord
+          pendant ma première foramtion "<strong>Assistant numérique</strong>",
+          j'ai appris à utiliser <strong>Photoshop</strong>, que j'ai fait mes
+          premières intégrations,<strong>Wordpress</strong>. Puis dans ma
+          formation de <strong>Développeur Web & Web mobile</strong> j'ai
+          approfondi mes conaissances en <strong>HTML,</strong> j'ai su comment
+          orgainiser un site web avec les flexbox, et les grilles en CSS,
+          jusqu'à présent. Enfin je m'amusait à créer des mini-jeux en
+          <strong>C#</strong> dans des consoles, ça m'a permis d'entraîner ma
+          logique.
+        </p>
+        <div class="skills">
+          <div class="parent1">
+            <p class="html" style="font-size: 20px">Html</p>
+            <div class="barre1"><div class="jauge1"></div></div>
+          </div>
+
+          <div class="parent2">
+            <p class="css" style="font-size: 20px">Css</p>
+            <div class="barre2"><div class="jauge2"></div></div>
+          </div>
+
+          <div class="parent3">
+            <p class="js" style="font-size: 20px">Javascript</p>
+            <div class="barre3"><div class="jauge3"></div></div>
+          </div>
+
+          <div class="parent4">
+            <p class="C#" style="font-size: 20px"></p>
+            <p>C#</p>
+            <div class="barre4"><div class="jauge4"></div></div>
+          </div>
+
+          <div class="parent5">
+            <p class="wp" style="font-size: 20px">Wordpress</p>
+            <div class="barre5"><div class="jauge5"></div></div>
+          </div>
+
+          <div class="parent6">
+            <p class="ps" style="font-size: 20px">Photoshop</p>
+            <div class="barre6"><div class="jauge6"></div></div>
+          </div>
+        </div>
+      </section>
+      <section id="projets">
+        <div class="réa">
+          <div class="titre"><h2>Mes projets</h2></div>
+          <!-- <div class="cta">Venez voir mes premiers projets</div> -->
+          <div class="projets">
+            <div class="projet1">Projet1</div>
+
+            <div class="projet2">Projet2</div>
+            <div class="projet3">Projet3</div>
+            <div class="projet4">Projet4</div>
+          </div>
+          <!-- <div class="descr">
+            <div class="descr">projet</div>
+            <div class="descr">projet</div>
+            <div class="descr">projet</div>
+            <div class="descr">projet</div>
+          </div> -->
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact"><h2>Contact</h2></div>
+        <form action="/page-traitement-données" method="post">
+          <div class="contenu">
+            <div class="nom">
+              <label for="nom">Nom</label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Nom"
+                required
+              />
+            </div>
+            <div class="prénom">
+              <label for="prénom">Prénom</label>
+              <input
+                type="text"
+                id="prénom"
+                name="prénom"
+                placeholder="Prénom"
+                required
+              />
+            </div>
+          </div>
+          <div class="reste">
+            <div class="mail">
+              <label for="email">Adresse mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="xyz@gmail.com"
+                required
+              />
+            </div>
+            <div class="objet">
+              <label for="sujet">Objet</label>
+              <input
+                type="text"
+                id="sujet"
+                name="sujet"
+                placeholder="Objet"
+                required
+              />
+            </div>
+          </div>
+          <div class="message">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="copyright">Copyright © 2022</div>
+        <div class="mentions">
+          <a href="index2.html" . html><p>Mentions légales</p></a>
+        </div>
+        <div class="monmail">
+          <a href="https://mail.google.com"><p>samclo97400@gmail.com</p></a>
+        </div>
+        <div class="num"><p>0692 45 49 83</p></div>
+      </div>
+    </footer>
+  </body>
+</html>
